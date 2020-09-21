@@ -1,9 +1,9 @@
-package [package].dao;
+package
 
-import [package].pojo.[Table2];
-import tk.mybatis.mapper.common.Mapper;
+[package].dao;
+        [package].pojo.[Table2];
 
-public interface [Table2]Mapper extends Mapper<[Table2]> {
+public interface [Table2]Mapper extends Mapper<[Table2]>{
 
 
-}
+        }

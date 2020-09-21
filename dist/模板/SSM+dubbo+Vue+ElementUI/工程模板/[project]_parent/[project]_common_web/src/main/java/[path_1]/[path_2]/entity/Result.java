@@ -1,6 +1,8 @@
-package [path_1].[path_2].entity;
+package
 
 import java.io.Serializable;
+
+[path_1].[path_2].entity;
 
 /**
  * 返回前端的消息封装
@@ -16,7 +18,7 @@ public class Result implements Serializable {
     }
 
     public Result() {
-        this.code=0;
+        this.code = 0;
         this.message = "执行成功";
     }
 

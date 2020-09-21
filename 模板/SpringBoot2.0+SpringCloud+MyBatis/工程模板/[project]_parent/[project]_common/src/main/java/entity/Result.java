@@ -1,9 +1,5 @@
 package entity;
 
-import com.alibaba.fastjson.JSON;
-
-import java.io.Serializable;
-
 /**
  * 返回结果实体类
  */
@@ -56,7 +52,7 @@ public class Result<T> {
     }
 
     public T getData() {
-        return    data;
+        return data;
     }
 
 

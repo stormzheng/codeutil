@@ -1,9 +1,11 @@
-package [path_1].[path_2].controller;
+package
 
-import [path_1].[path_2].entity.Result;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+[path_1].[path_2].controller;
+        [path_1].[path_2].entity.Result;
 
 /**
  * 统一异常处理类
@@ -16,7 +18,7 @@ public class BaseExceptionHandler {
     public Result error(Exception e) {
         e.printStackTrace();
         System.out.println("调用了公共异常处理类");
-        return new Result(1,e.getMessage());
+        return new Result(1, e.getMessage());
     }
 
 

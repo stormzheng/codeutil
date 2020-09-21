@@ -1,5 +1,9 @@
-package [path_1].[path_2].entity;
+package
+
 import java.util.List;
+
+[path_1].[path_2].entity;
+
 public class PageResult<T> {
 
     private Long total;//总记录数

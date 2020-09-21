@@ -7,7 +7,6 @@
     <groupId>cn.itcast</groupId>
     <artifactId>codeutil</artifactId>
     <version>2.5.1-Release</version>
-	<!-- 黑马刘皇叔 -->
 
     <dependencies>
         <dependency>
@@ -33,8 +32,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <!-- 打包为可执行胖jar -->
-
 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>

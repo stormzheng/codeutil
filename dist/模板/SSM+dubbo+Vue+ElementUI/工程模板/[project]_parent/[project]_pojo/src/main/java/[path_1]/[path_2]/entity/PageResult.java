@@ -1,10 +1,13 @@
-package [path_1].[path_2].entity;
+package
 
 import java.io.Serializable;
 import java.util.List;
 
+[path_1].[path_2].entity;
+
 /**
  * 分页结果
+ *
  * @param <T>
  */
 public class PageResult<T> implements Serializable {
